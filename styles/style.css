@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+/* Nav design */
+.nav-container {
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/banner/banner1.png);
+    background-size: cover;
+}
+
+.nav-container h1 {
+    font-size: 60px;
+    text-align: right;
+    padding: 50px 90px;
+    font-weight: 700;
+}
+
+.nav-container p {
+    text-align: right;
+    padding: 0px 90px 20px 770px;
+}
+
+.btn {
+    text-align: right;
+    padding-right: 90px;
+}
+
+.btn button {
+    font-size: ;
+    padding: 20px 25px;
+    font-weight: bold;
+    background-color: #F15B22;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.main-container {
+    padding: 20px;
+    display: flex;
+    gap: 87px;
+    justify-content: center;
+    margin-top: 131px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.main-container img {
+    width: 569px;
+    height: 723.3px;
+}
+.main-content1 {
+    margin-top: 131px;
+}
+.main-content2 {
+    width: 416px;
+    height: 400px;
+    margin-top: 300px;
+}
+
+.main-container2 h1 {
+    font-size: 40px;
+}
+.items-title{
+    font-size: 40px;
+    color: #151414;
+}
+.items-description{
+    margin: 24px 0px 10px 0;
+}
+.items{
+    margin: 8px 0;
+}
+.plans-area h1{
+    text-align: center;
+    padding: 10px;
+    
+}
+.plans-container{
+    padding: 55px 0px;
+    
+    width: 1141px;
+    height: 299.96px;
+    margin: 0 auto;
+    gap: 46px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   
+}
+.plans-container h1{
+    color: #151414;
+    font-size: 30px;
+}
+.plans-container p{
+    color: #737272;
+    font-size: 25px;
+    
+}
+.main-content3{
+    width: 1076px;
+height: 180px;
+margin: 0 auto;
+background: url(../images/watch.png);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 60px 0px 0px 64px;
+border-radius: 8px;
+background-color: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);;
+
+}
+.main-content3 h1{
+    font-weight: 700;
+font-size: 40px;
+    color: white;
+}
+.main-content3 button {
+    font-size:17px ;
+    margin-top: 15px;
+    padding: 16px 15px;
+    font-weight: bold;
+    color: #F15B22;
+    border: 0;
+    border-radius: 5px;
+}
