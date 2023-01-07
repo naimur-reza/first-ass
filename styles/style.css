@@ -48,24 +48,34 @@
     display: flex;
     gap: 87px;
     justify-content: center;
-    margin-top: 131px;
+    margin-top: 200px;
     align-items: center;
-    margin: 0 auto;
+    margin: 240px auto 45px;
+    
 }
 
 .main-container img {
     width: 569px;
     height: 723.3px;
+    position: relative;
+    bottom: 195px;
+    right: 23px;
+
+
 }
 
 .main-content1 {
-    margin-top: 131px;
+    width: 527.93px;
+height: 527.93px;
+
+    border-radius: 50%;
+    background: rgba(241, 93, 34, 0.218);
 }
 
 .main-content2 {
     width: 416px;
     height: 400px;
-    margin-top: 300px;
+    margin-top: 145;
 }
 
 .main-container2 h1 {
@@ -97,7 +107,6 @@
 
 .plans-container {
     padding: 55px 0px;
-
     width: 1141px;
     height: 299.96px;
     margin: 0 auto;
