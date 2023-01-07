@@ -86,7 +86,7 @@
 .items-title {
     font-size: 40px;
     color: #1e1d1d;
-    line-height:46.92px;
+    line-height: 46.92px;
 }
 
 .items-description {
@@ -100,13 +100,14 @@
     color: #282525;
 }
 
-.plans-area h1 {
+.plans-area h1:first-child {
     text-align: center;
     padding: 10px;
-
+    margin-top: 70px;
 }
 
 .plans-container {
+
     padding: 55px 0px;
     width: 1141px;
     height: 299.96px;
@@ -115,7 +116,6 @@
     text-align: center;
     display: flex;
     justify-content: center;
-
 }
 
 .plans-container h1 {
@@ -210,6 +210,63 @@ button:hover {
 .first-area img {
     margin: 0px 5px;
     cursor: pointer;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.skill-item p {
+    text-align: justify;
+}
+
+.skill-item {
+    cursor: pointer;
+    width: 185px;
+    height: 265px;
+    background: #FFFFFF;
+    box-shadow: 13px 12px 50px 4px rgb(0 0 0 / 6%);
+    border-radius: 5px;
+    padding: 33px;
+}
+.magic1:hover{
+    box-shadow: 0px 0px 46px -19px rgba(0,0,0,1);
+    transition: 1s;
+}
+.magic2:hover{
+    box-shadow: 0px 0px 46px -19px rgba(0,0,0,1);
+    transition: 1s;
+}
+.magic3:hover{
+    box-shadow: 0px 0px 46px -19px rgba(0,0,0,1);
+    transition: 1s;
+}
+.magic4:hover{
+    box-shadow: 0px 0px 46px -19px rgba(0,0,0,1);
+    transition: 1s;
+}
+
+.skill-item>h1 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+.skill-item>p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #737272;
+}
+
+.next-js {
+    height: 17px;
+    width: 60px;
+    margin-top: 20px;
 }
 
 /* End */
