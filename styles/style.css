@@ -145,17 +145,17 @@
     border-radius: 5px;
 }
 
-.main-content3 button:hover {
+button:hover {
     color: white;
-    background: #000000;
+    background: #11101d;
     transition: .5s;
     cursor: pointer;
-    padding: 19px 18px;
+    font-size: 20px;
 }
 
 .footer-container {
     margin-top: 131px;
-    background-color: #151414;
+    background-color: #040831;
     color: white;
     display: flex;
     justify-content: center;
