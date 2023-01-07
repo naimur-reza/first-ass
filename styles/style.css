@@ -6,6 +6,7 @@
 }
 
 /* Nav design */
+
 .nav-container {
     width: 100%;
     height: 700px;
@@ -39,6 +40,8 @@
     border: 0;
     border-radius: 5px;
 }
+
+/* Main content design */
 
 .main-container {
     padding: 20px;
@@ -126,15 +129,12 @@
     padding: 60px 0px 0px 64px;
     border-radius: 8px;
     background-color: ;
-
 }
-
 .main-content3 h1 {
     font-weight: 700;
     font-size: 40px;
     color: white;
 }
-
 .main-content3 button {
     font-size: 17px;
     margin-top: 15px;
@@ -144,7 +144,6 @@
     border: 0;
     border-radius: 5px;
 }
-
 button:hover {
     color: white;
     background: #11101d;
@@ -152,6 +151,8 @@ button:hover {
     cursor: pointer;
     font-size: 20px;
 }
+
+/* Footer Design */
 
 .footer-container {
     margin-top: 131px;
@@ -191,9 +192,11 @@ button:hover {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-
 }
-.first-area img{
+
+.first-area img {
     margin: 0px 5px;
     cursor: pointer;
 }
+
+/* End */
